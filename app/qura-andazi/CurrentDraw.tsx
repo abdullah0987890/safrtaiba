@@ -12,7 +12,7 @@ export default function CurrentDraw() {
   });
 
   useEffect(() => {
-    const targetDate = new Date('2025-11-15T23:59:59').getTime();
+    const targetDate = new Date('2025-09-15T23:59:59').getTime();
     
     const timer = setInterval(() => {
       const now = new Date().getTime();
