@@ -29,7 +29,7 @@ export default function HowItWorks() {
     },
     {
       step: '5',
-      title: 'Win or Refund',
+      title: 'Win or Gift',
       description: 'If you win, enjoy your Umrah package! If not, get Beautiful Gifts',
       icon: 'ri-medal-line'
     }
