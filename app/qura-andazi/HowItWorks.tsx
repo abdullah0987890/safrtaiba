@@ -30,7 +30,7 @@ export default function HowItWorks() {
     {
       step: '5',
       title: 'Win or Refund',
-      description: 'If you win, enjoy your Umrah package! If not, get your full Rs. 950 refunded',
+      description: 'If you win, enjoy your Umrah package! If not, get Beautiful Gifts',
       icon: 'ri-medal-line'
     }
   ];
