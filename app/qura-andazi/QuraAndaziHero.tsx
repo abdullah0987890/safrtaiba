@@ -45,8 +45,8 @@ export default function QuraAndaziHero() {
               <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4 bg-blue-500 rounded-full">
                 <i className="ri-refund-line text-2xl text-white"></i>
               </div>
-              <h3 className="text-2xl font-bold mb-3">Money Back</h3>
-              <p className="text-gray-200">Full refund if you don't win</p>
+              <h3 className="text-2xl font-bold mb-3">Gift as Refund</h3>
+              <p className="text-gray-200">You get gift as refund</p>
             </div>
           </div>
 
@@ -54,7 +54,7 @@ export default function QuraAndaziHero() {
             <div className="w-6 h-6 flex items-center justify-center mr-2 inline-block">
               <i className="ri-time-line"></i>
             </div>
-            Next Draw: September 15, 2025
+            Next Draw: November 15, 2025
           </div>
         </div>
       </div>
