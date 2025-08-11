@@ -38,17 +38,7 @@ export default function CurrentDraw() {
           </h2>
           
        
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <div className="text-3xl font-bold mb-2">1,247</div>
-              <div className="text-sm uppercase tracking-wider">Current Participants</div>
-            </div>
-            
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <div className="text-3xl font-bold mb-2">5</div>
-              <div className="text-sm uppercase tracking-wider">Winners This Draw</div>
-            </div>
-            
+       
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
               <div className="text-3xl font-bold mb-2">PKR 250,000</div>
               <div className="text-sm uppercase tracking-wider">Package Value</div>
