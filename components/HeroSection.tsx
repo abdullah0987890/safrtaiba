@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState } from 'react';
@@ -39,13 +40,13 @@ export default function HeroSection() {
             Join thousands of pilgrims who have trusted us for their sacred pilgrimage.
           </p>
 
-          <div className="bg-white rounded-2xl p-6 md:p-8 shadow-2xl max-w-4xl">
-            <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mb-6 text-center">
+          <div className="bg-white rounded-2xl p-8 shadow-2xl max-w-4xl">
+            <h3 className="text-2xl font-semibold text-gray-800 mb-6 text-center">
               Find Your Perfect Umrah Package
             </h3>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mb-6">
-              <div className="col-span-1">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+              <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   <div className="w-5 h-5 flex items-center justify-center mr-2 inline-block">
                     <i className="ri-map-pin-line text-green-600"></i>
@@ -55,7 +56,7 @@ export default function HeroSection() {
                 <select 
                   value={selectedCity}
                   onChange={(e) => setSelectedCity(e.target.value)}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent pr-8"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent pr-8"
                 >
                   <option value="">Select City</option>
                   {cities.map((city) => (
@@ -64,7 +65,7 @@ export default function HeroSection() {
                 </select>
               </div>
 
-              <div className="col-span-1">
+              <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   <div className="w-5 h-5 flex items-center justify-center mr-2 inline-block">
                     <i className="ri-calendar-line text-green-600"></i>
@@ -74,7 +75,7 @@ export default function HeroSection() {
                 <select 
                   value={selectedPackage}
                   onChange={(e) => setSelectedPackage(e.target.value)}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent pr-8"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent pr-8"
                 >
                   <option value="">Select Package</option>
                   {packages.map((pkg) => (
@@ -83,25 +84,25 @@ export default function HeroSection() {
                 </select>
               </div>
 
-              <div className="col-span-1 md:flex md:items-end">
+              <div className="flex items-end">
                 <Link 
                   href="/packages"
-                  className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-center block"
+                  className="w-full bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors font-semibold text-center whitespace-nowrap cursor-pointer block"
                 >
                   Search Packages
                 </Link>
               </div>
             </div>
 
-            <div className="text-center mt-4">
+            <div className="text-center">
               <Link 
                 href="/qura-andazi"
-                className="inline-flex items-center justify-center bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-4 md:px-8 py-3 rounded-lg hover:from-yellow-600 hover:to-orange-600 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 w-full md:w-auto"
+                className="inline-flex items-center bg-yellow-500 text-white px-8 py-3 rounded-lg hover:bg-yellow-600 transition-colors font-semibold whitespace-nowrap cursor-pointer"
               >
-                <div className="w-5 h-5 flex items-center justify-center mr-2 flex-shrink-0">
+                <div className="w-5 h-5 flex items-center justify-center mr-2">
                   <i className="ri-gift-line"></i>
                 </div>
-                <span className="text-sm md:text-base">Try Your Luck - Qura Andazi Draw</span>
+                Try Your Luck - Qura Andazi Draw
               </Link>
             </div>
           </div>
