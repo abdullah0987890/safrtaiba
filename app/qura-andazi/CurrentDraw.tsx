@@ -12,7 +12,7 @@ export default function CurrentDraw() {
   });
 
   useEffect(() => {
-    const targetDate = new Date('2025-11-15T23:59:59').getTime();
+    const targetDate = new Date('2025-09-15T23:59:59').getTime();
     
     const timer = setInterval(() => {
       const now = new Date().getTime();
@@ -34,7 +34,7 @@ export default function CurrentDraw() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center text-white">
           <h2 className="text-4xl font-bold mb-6">
-            November 2025 Draw
+            September 2025 Draw
           </h2>
           
        
