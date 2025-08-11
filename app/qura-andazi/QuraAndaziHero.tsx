@@ -1,4 +1,4 @@
-
+ber
 'use client';
 
 export default function QuraAndaziHero() {
@@ -54,7 +54,7 @@ export default function QuraAndaziHero() {
             <div className="w-6 h-6 flex items-center justify-center mr-2 inline-block">
               <i className="ri-time-line"></i>
             </div>
-            Next Draw: November 15, 2025
+            Next Draw: September 15, 2025
           </div>
         </div>
       </div>
