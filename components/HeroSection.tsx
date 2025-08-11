@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState } from 'react';
@@ -93,17 +94,19 @@ export default function HeroSection() {
               </div>
             </div>
 
-            <div className="text-center">
-              <Link 
-                href="/qura-andazi"
-                className="inline-flex items-center bg-yellow-500 text-white px-8 py-3 rounded-lg hover:bg-yellow-600 transition-colors font-semibold whitespace-nowrap cursor-pointer"
-              >
-                <div className="w-5 h-5 flex items-center justify-center mr-2">
-                  <i className="ri-gift-line"></i>
-                </div>
-                Try Your Luck - Qura Andazi Draw
-              </Link>
-            </div>
+      <div className="w-full flex justify-center">
+  <Link 
+    href="/qura-andazi"
+    className="inline-flex items-center bg-green-500 text-white px-8 py-3 rounded-lg hover:bg-green-600 transition-colors font-semibold whitespace-nowrap cursor-pointer"
+  >
+    <div className="w-5 h-5 flex items-center justify-center mr-2">
+      <i className="ri-gift-line"></i>
+    </div>
+    Try Your Luck - Qura Andazi Draw
+  </Link>
+</div>
+
+
           </div>
         </div>
       </div>
