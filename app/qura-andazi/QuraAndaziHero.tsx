@@ -1,4 +1,4 @@
-ber
+
 'use client';
 
 export default function QuraAndaziHero() {
