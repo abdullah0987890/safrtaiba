@@ -21,7 +21,7 @@ export default function QuraAndaziHero() {
           
           <p className="text-2xl text-gray-200 mb-12 max-w-3xl mx-auto">
             Try your luck in our monthly draw! Pay only Rs. 950 token fee and get a chance to win 
-            a fully-paid Umrah package. If you don't win, get your money back!
+            a fully-paid Umrah package. If you don't win, get your Gift as a refund!
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
